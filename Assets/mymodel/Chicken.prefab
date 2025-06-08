@@ -80,8 +80,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTerms: {fileID: 0}
-  firebullet: {fileID: 0}
-  fireposition: {fileID: 0}
+  firebullet: {fileID: 225949857654418343, guid: cc15ba8bd1adb1c4782f7372007d86bc,
+    type: 3}
+  fireposition: {fileID: 6056230776066345686}
 --- !u!65 &2069541765374314709
 BoxCollider:
   m_ObjectHideFlags: 0
