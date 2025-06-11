@@ -28,4 +28,4 @@ public class ChickenManerger : MonoBehaviour
         Destroy(gameObject);
         Destroy(firebullet);
     }
-}//Git測試
+}

@@ -6,12 +6,12 @@ public class LevelManager : MonoBehaviour
     public GameObject chicken;
     public float minDistance = 2f;
     public float maxDistance = 4f;
-    public float viewAngle = 45f; // ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½×½dï¿½ï¿½
+    public float viewAngle = 45f; // ¥iµø¨¤«×½d³ò
     //public int spawnCount = 1;
     public int HP = 4;
 
     float shootingtime;
-    // ï¿½nï¿½Í¦ï¿½ï¿½Xï¿½Ó¼Ä¤H
+    // ­n¥Í¦¨´X­Ó¼Ä¤H
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -50,7 +50,7 @@ public class LevelManager : MonoBehaviour
         float distance = Random.Range(minDistance, maxDistance);
         Vector3 spawnPosition = camPosition + direction.normalized * distance;
 
-        // ï¿½×§Kï¿½Ä¤Hï¿½Xï¿½{ï¿½bï¿½Ó°ï¿½ï¿½Î¤Ó§Cï¿½ï¿½ï¿½ï¿½mï¿½]ï¿½ï¿½Ü»Pï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½×¤@ï¿½Pï¿½Î«ï¿½ï¿½wï¿½ï¿½ï¿½×¡^
+        // Á×§K¼Ä¤H¥X²{¦b¤Ó°ª©Î¤Ó§Cªº¦ì¸m¡]¿ï¾Ü»PÄá¼v¾÷°ª«×¤@­P©Î«ü©w°ª«×¡^
         spawnPosition.y = camPosition.y;
 
         
